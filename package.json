@@ -1,0 +1,18 @@
+{
+    "name": "degen-trail-client",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": {
+      "packages": [
+        "packages/solidity",
+        "packages/nextjs"
+      ]
+    },
+    "scripts": {
+      "start": "yarn workspace @degen-trail/nextjs dev",
+      "build": "yarn workspace @degen-trail/nextjs build",
+      "chain": "yarn workspace @degen-trail/solidity chain"
+    },
+    "packageManager": "yarn@3.2.3"
+  }
+  
